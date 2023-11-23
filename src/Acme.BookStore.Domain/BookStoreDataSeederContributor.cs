@@ -83,7 +83,7 @@ public class BookStoreDataSeederContributor
                 await _authorManager.CreateAsync(
                     "Keith Ferrazzi",
                     new DateTime(1966, 07, 14),
-                    "Keith's Story\r\nKeith Ferrazzi is an American entrepreneur and recognized global thought leader in the relational and collaborative sciences. As Chairman of Ferrazzi Greenlight and its Research Institute, he works to identify behaviors that block global organizations from reaching their goals and to transform them by coaching new behaviors that increase growth and shareholder value."
+                    "Keith Ferrazzi is an American entrepreneur and recognized global thought leader in the relational and collaborative sciences. As Chairman of Ferrazzi Greenlight and its Research Institute, he works to identify behaviors that block global organizations from reaching their goals and to transform them by coaching new behaviors that increase growth and shareholder value."
                 )
             );
 
