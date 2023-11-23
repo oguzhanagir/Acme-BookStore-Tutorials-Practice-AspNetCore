@@ -1,9 +1,10 @@
 ﻿using System;
-using Volo.Abp.Domain.Entities.Auditing;
+using Volo.Abp.Application.Dtos;
 
 namespace Acme.BookStore.Books;
 
-public class Book : AuditedAggregateRoot<Guid>
+
+public class BookDto : AuditedEntityDto<Guid>
 {
     public string Name { get; set; }
 
@@ -13,4 +14,3 @@ public class Book : AuditedAggregateRoot<Guid>
 
     public float Price { get; set; }
 }
-
